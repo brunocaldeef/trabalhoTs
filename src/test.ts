@@ -22,6 +22,7 @@ console.log(book1)
 console.log(periodical1)
 
 console.log(person2)
+
 console.log(book2)
 console.log(periodical2)
 

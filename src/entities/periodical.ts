@@ -16,4 +16,5 @@ constructor (issn: number, volume: number, issue: number, title: string, subtitl
     this.issue = issue
     }
 }
+
 export default Periodical

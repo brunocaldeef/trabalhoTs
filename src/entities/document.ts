@@ -16,4 +16,5 @@ constructor (title:string, subtitle:string, publishedAt: pubAt, author: Person){
 }
 }
 
+
 export default Document

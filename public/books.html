@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Livro</title>
+</head>
+<body>
+  <header>
+    <h1>Cadastro Livro</h1>
+  </header>
+
+  <form novalidate>
+    <input id="title" placeholder="Titulo">
+    <input id="subtitle" placeholder="Subtitulo">
+    <input id="edition" placeholder="Edição">
+    <input id="volume" placeholder="Volume">
+    <select id="typo" required>
+      <option value="">Selecione o tipo</option>
+      <option value="L">Livro</option>
+      <option value="P">Periódico</option>
+    </select>
+
+    <button>Salvar</button>
+  </form>
+  
+  <div id="resposta"></div>
+  
+  <script src="books.js" type="module"></script>
+</body>
+</html>

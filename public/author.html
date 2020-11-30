@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Autor</title>
+</head>
+<body>
+  <header>
+    <h1>Cadastro Autor</h1>
+  </header>
+
+  <form novalidate>
+    <input id="name" placeholder="Nome do aluno" autocomplete="name">
+    <input id="birth" type="date" placeholder="Informe a data de nascimento">
+    <select id="gender" required>
+      <option value="">Selecione o sexo</option>
+      <option value="f">Feminino</option>
+      <option value="m">Masculino</option>
+    </select>
+
+    <button>Salvar</button>
+  </form>
+  
+  <div id="resposta"></div>
+  
+  <script src="author.js" type="module"></script>
+</body>
+</html>

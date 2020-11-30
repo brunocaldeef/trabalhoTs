@@ -1,5 +1,8 @@
 
-import Person, { Gender } from "./entities/person";
+
+import Person from "./entities/person";
+
+import {Gender} from "./entities/person";
 
 import Book from "./entities/book";
 
